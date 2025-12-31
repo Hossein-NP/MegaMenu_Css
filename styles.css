@@ -62,3 +62,12 @@
   border: 1px solid var(--text-teal-600);
   border-radius: 1rem;
 }
+
+/* @_@===========Main===========@_@  */
+
+.main-wrapper {
+  background-color: var(--text-teal-600);
+  height: 338px;
+  border-radius: 16px;
+  margin-top: 48px;
+}
