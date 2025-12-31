@@ -41,6 +41,8 @@ css-mega-menu/
 │   └── style.css
 ├── assets/
 │   └── images/
+│   └── scripts/app.js
+│   └── styles/
 └── README.md
 ```
 ---
