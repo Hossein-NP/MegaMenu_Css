@@ -1,2 +1,7 @@
-# MegaMenu_Css
-A step-by-step educational project for developing a Mega Menu using only HTML and CSS, JS. The goal is to practice and understand real-world navigation design, CSS layout techniques, and interactive menu behavior without any frameworks.
+
+# 📌 Project: CSS Mega Menu (Educational)
+
+📖 Overview
+
+This repository is an educational front-end project focused on building a Mega Menu from scratch using pure HTML and CSS.
+The goal of this project is to deeply understand how complex navigation menus work at the CSS level, without relying on any frameworks or libraries.
