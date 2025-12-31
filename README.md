@@ -42,3 +42,16 @@ css-mega-menu/
 ├── assets/
 │   └── images/
 └── README.md
+
+---
+
+## 📱 Responsive Design
+The Mega Menu is designed to be responsive using pure CSS techniques such as flexible layouts, grid systems, and media queries.
+
+---
+
+## 🚀 How to Use
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/css-mega-menu.git
