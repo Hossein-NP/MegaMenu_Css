@@ -30,7 +30,6 @@ The main purpose of this project is to strengthen core CSS knowledge by implemen
 - **CSS3**
 - ❌ No frameworks  
 - ❌ No libraries  
-- ❌ No JavaScript (CSS-only approach)
 
 ---
 
