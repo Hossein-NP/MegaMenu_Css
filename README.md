@@ -54,4 +54,4 @@ The Mega Menu is designed to be responsive using pure CSS techniques such as fle
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Hossein-NP/css-mega-menu.git
+git clone https://github.com/Hossein-NP/MegaMenu_Css.git
