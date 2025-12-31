@@ -1,6 +1,7 @@
 /* Variables  */
 
 :root {
+
   /* Colors  */
   --bg-white: #ffffff;
   --bg-teal-600: #2EC4B6;
@@ -8,5 +9,19 @@
   --text-teal-600: #2EC4B6;
   --text-gray-700: #2EC4B6;
   --text-white: #ffffff;
+
   /* Sizing  */
+  --mx-5: 20px;
+  /* --w-18: 72px;
+  --h-6: 24px; */
+
+  /* Fonts  */
+  --font-YekanBakh-Medium: "YekanBakh-Medium";
+  --font-YekanBakh-Bold: "YekanBakh-Bold";
+  --font-YekanBakh-Heavy: "YekanBakh-Heavy";
+  --font-YekanBakh-Regular: "YekanBakh-Regular";
+  --f-weight-500: 500;
+
+  /* Font Size  */
+  --fs-base: 16px;
 }

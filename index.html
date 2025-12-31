@@ -27,17 +27,19 @@
   
   <!-- *_*============ Start Header*_*  -->
    <header class="header h-20">
-    <div class="container">
-      <nav class="navbar flex items-center justify-between">
-        <div class="navbar-right-section">
+    <div class="container h-full">
+      <nav class="navbar h-full flex items-center justify-between">
+        <!-- Right Side  -->
+        <div class="navbar-right-section flex items-center">
           <!-- Logo  -->
           <div class="navbar__logo">
             <img src="./Assets/images/logo/logo.png" alt="" class="navbar__logo-img">
           </div>
-          <div class="navbar__menu">
-            <div class="navbar__menu-items">
+          <!-- Menu  -->
+          <div class="navbar__menu mr-5">
+            <ul class="navbar__menu-items flex items-center">
               <li class="navbar__menu-links"><a href="#" class="navbar__menu-link">صفحه اصلی</a></li>
-              <li class="navbar__menu-links"><a href="#" class="navbar__menu-link">
+              <li class="navbar__menu-links flex items-center""><a href="#" class="navbar__menu-link">
                 محصولات
                 <svg class="w-4 h-4">
                   <use href="#arrows_direction"></use>
@@ -46,21 +48,24 @@
               <li class="navbar__menu-links"><a href="#" class="navbar__menu-link">بلاگ</a></li>
               <li class="navbar__menu-links"><a href="#" class="navbar__menu-link">درباره ما</a></li>
               <li class="navbar__menu-links"><a href="#" class="navbar__menu-link">تماس با ما</a></li>
-            </div>
+            </ul>
           </div>
         </div>
-        <div class="navbar-left-section">
+        <!-- Left Side  -->
+        <div class="navbar-left-section flex items-center">
+          <!-- Shopping Icon  -->
           <div class="navbar__left-shopping-icon">
             <svg class="w-6 h-6">
               <use href="#shopping-bag"></use>
             </svg>
           </div>
-          <div class="navbar__login">
-            <a href="#" class="navbar__login-link">
+          <!-- Login  -->
+          <div class="navbar__login flex items-center">
+            <a href="#" class="navbar__login-link flex items-center">
               <svg class="w-6 h-6">
                 <use href="#user"></use>
-                <span>ورود | عضویت</span>
               </svg>
+              <span>ورود | عضویت</span>
             </a>
           </div>
         </div>

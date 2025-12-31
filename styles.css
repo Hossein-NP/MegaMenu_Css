@@ -5,4 +5,31 @@
 @import './Assets/styles/utilites.css';
 
 
+/* Styles  */
 
+/* @_@===========Navbar===========@_@  */
+.navbar__menu-items > li {
+  margin: 0 var(--mx-5);
+}
+
+.navbar__menu-items > li > a {
+  font-family: var(--font-YekanBakh-Medium);
+  font-weight: var(--f-weight-500);
+  font-style: Medium;
+  font-size: var(--fs-base);
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: var(--text-slate-950);
+}
+
+.navbar__login > .navbar__login-link {
+  font-family: var(--font-YekanBakh-Medium);
+  font-weight: 500;
+  font-style: Medium;
+  font-size: var(--fs-base);
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: var(--text-teal-600);
+}
