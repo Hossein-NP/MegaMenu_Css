@@ -14,7 +14,7 @@
   <!-- Svg  -->
   <svg class="hidden">
     <symbol id="arrows_direction" data-name="Huge-icon/arrows/outline/direction-up 01" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-      <path id="Vector_175" data-name="Vector 175" d="M10.282,5.336a.75.75,0,1,0,.937-1.171ZM5.75.75,6.219.164a.75.75,0,0,0-.937,0ZM.282,4.164a.75.75,0,1,0,.937,1.171Zm10.937,0-5-4L5.282,1.336l5,4Zm-5.937-4-5,4,.937,1.171,5-4Z" transform="translate(6.25 9.25)" fill="#28303f"/>
+      <path id="Vector_175" data-name="Vector 175" d="M10.282,5.336a.75.75,0,1,0,.937-1.171ZM5.75.75,6.219.164a.75.75,0,0,0-.937,0ZM.282,4.164a.75.75,0,1,0,.937,1.171Zm10.937,0-5-4L5.282,1.336l5,4Zm-5.937-4-5,4,.937,1.171,5-4Z" transform="translate(6.25 9.25)" fill="currentColor"/>
     </symbol>
     <symbol id="shopping-bag" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
       <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
@@ -54,11 +54,12 @@
         <!-- Left Side  -->
         <div class="navbar-left-section flex items-center">
           <!-- Shopping Icon  -->
-          <div class="navbar__left-shopping-icon flex items-center justify-center w-12 h-12 ml-4">
+          <button type="button" class="navbar__left-shopping-card relative flex items-center justify-center w-12 h-12 ml-4">
             <svg class="w-6 h-6">
               <use href="#shopping-bag"></use>
             </svg>
-          </div>
+            <div class="badge-card  absolute w-6 h-6 -inset-t-r-2">3</div>
+          </button>
           <!-- Login  -->
           <div class="navbar__login flex items-center justify-center w-35 h-12">
             <a href="#" class="navbar__login-link flex items-center justify-center w-full h-full">

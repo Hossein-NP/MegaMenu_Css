@@ -22,7 +22,9 @@
 .justify-between {
   justify-content: space-between;
 }
+
 /* Height  */
+
 .h-full {
   height: 100%;
 }
@@ -78,6 +80,7 @@
 }
 
 /* Margin  */
+
 .mr-2 {
   margin-right: 8px;
 }
@@ -104,4 +107,19 @@
 
 .mx-6 {
   margin-left: 24px;
+}
+
+/* Position  */
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.-inset-t-r-2 {
+  top: -8px;
+  right: -8px;
 }

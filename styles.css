@@ -9,6 +9,10 @@
 
 /* @_@===========Navbar===========@_@  */
 
+.header {
+  background-color: var(--gray-200);
+}
+
 .navbar__menu-items > li {
   margin: 0 var(--mx-4);
 }
@@ -22,20 +26,36 @@
   text-align: center;
   vertical-align: middle;
   color: var(--text-slate-950);
+  transition: all 150ms ease-in-out;
+}
+
+.navbar__menu-items > li > a:hover {
+  color: var(--text-teal-600);
 }
 
 .navbar__login > .navbar__login-link {
   font-family: var(--font-YekanBakh-Medium);
-  font-weight: 500;
+  font-weight: var(--f-weight-500);
   font-size: var(--fs-base);
   line-height: 24px;
   letter-spacing: 0%;
   color: var(--text-teal-600);
 }
 
-.navbar__left-shopping-icon {
-  border: 1px solid var(--gray-200);
+.navbar__left-shopping-card {
+  border: 1px solid var(--gray-400);
   border-radius: 1rem;
+  cursor: pointer;
+  background-color: var(--gray-200);
+}
+
+.badge-card {
+  background-color: var(--text-teal-600);
+  border-radius: 50%;
+  color: var(--text-white);
+  line-height: 24px;
+  font-family: var(--font-YekanBakh-Medium);
+  border: 2px solid var(--gray-200);
 }
 
 .navbar__login {
