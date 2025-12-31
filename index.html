@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mega Menu</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./Assets/images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./Assets/images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./Assets/images/favicon_io/favicon-16x16.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Svg  -->
+  <svg class="hidden">
+    <symbol id="arrows_direction" data-name="Huge-icon/arrows/outline/direction-up 01" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+      <path id="Vector_175" data-name="Vector 175" d="M10.282,5.336a.75.75,0,1,0,.937-1.171ZM5.75.75,6.219.164a.75.75,0,0,0-.937,0ZM.282,4.164a.75.75,0,1,0,.937,1.171Zm10.937,0-5-4L5.282,1.336l5,4Zm-5.937-4-5,4,.937,1.171,5-4Z" transform="translate(6.25 9.25)" fill="#28303f"/>
+    </symbol>
+    <symbol id="shopping-bag" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+    </symbol>
+    <symbol id="user" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+    </symbol>
+
+  </svg>
+  
+  <!-- *_*============ Start Header*_*  -->
+   <header class="header h-20">
+    <div class="container">
+      <nav class="navbar flex items-center justify-between">
+        <div class="navbar-right-section">
+          <!-- Logo  -->
+          <div class="navbar__logo">
+            <img src="./Assets/images/logo/logo.png" alt="" class="navbar__logo-img">
+          </div>
+          <div class="navbar__menu">
+            <div class="navbar__menu-items">
+              <li class="navbar__menu-links"><a href="#" class="navbar__menu-link">صفحه اصلی</a></li>
+              <li class="navbar__menu-links"><a href="#" class="navbar__menu-link">
+                محصولات
+                <svg class="w-4 h-4">
+                  <use href="#arrows_direction"></use>
+                </svg>
+              </a></li>
+              <li class="navbar__menu-links"><a href="#" class="navbar__menu-link">بلاگ</a></li>
+              <li class="navbar__menu-links"><a href="#" class="navbar__menu-link">درباره ما</a></li>
+              <li class="navbar__menu-links"><a href="#" class="navbar__menu-link">تماس با ما</a></li>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-left-section">
+          <div class="navbar__left-shopping-icon">
+            <svg class="w-6 h-6">
+              <use href="#shopping-bag"></use>
+            </svg>
+          </div>
+          <div class="navbar__login">
+            <a href="#" class="navbar__login-link">
+              <svg class="w-6 h-6">
+                <use href="#user"></use>
+                <span>ورود | عضویت</span>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+   </header>
+  <!-- *_*============ Finish Header*_*  -->
+
+
+  
+  <!-- *_*============ Start Scripts*_*  -->
+  <script src="./Assets/scripts/app.js"></script>
+  <!-- *_*============Finish Scripts*_*  -->
+
+</body>
+</html>
