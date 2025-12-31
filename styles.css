@@ -8,14 +8,14 @@
 /* Styles  */
 
 /* @_@===========Navbar===========@_@  */
+
 .navbar__menu-items > li {
-  margin: 0 var(--mx-5);
+  margin: 0 var(--mx-4);
 }
 
 .navbar__menu-items > li > a {
   font-family: var(--font-YekanBakh-Medium);
   font-weight: var(--f-weight-500);
-  font-style: Medium;
   font-size: var(--fs-base);
   line-height: 24px;
   letter-spacing: 0%;
@@ -27,9 +27,18 @@
 .navbar__login > .navbar__login-link {
   font-family: var(--font-YekanBakh-Medium);
   font-weight: 500;
-  font-style: Medium;
   font-size: var(--fs-base);
   line-height: 24px;
   letter-spacing: 0%;
   color: var(--text-teal-600);
+}
+
+.navbar__left-shopping-icon {
+  border: 1px solid var(--gray-200);
+  border-radius: 1rem;
+}
+
+.navbar__login {
+  border: 1px solid var(--text-teal-600);
+  border-radius: 1rem;
 }

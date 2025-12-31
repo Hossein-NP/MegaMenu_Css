@@ -9,11 +9,11 @@
   --text-teal-600: #2EC4B6;
   --text-gray-700: #2EC4B6;
   --text-white: #ffffff;
+  --gray-200: #E5E5E5;
 
   /* Sizing  */
-  --mx-5: 20px;
-  /* --w-18: 72px;
-  --h-6: 24px; */
+  --mx-4: 16px;
+  
 
   /* Fonts  */
   --font-YekanBakh-Medium: "YekanBakh-Medium";

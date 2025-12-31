@@ -49,16 +49,24 @@
   width: 100%;
 }
 
-.w-6 {
-  width: 24px;
-}
-
 .w-4 {
   width: 16px;
 }
 
+.w-5 {
+  width: 20px;
+}
+
+.w-6 {
+  width: 24px;
+}
+
 .w-12 {
   width: 48px;
+}
+
+.w-35 {
+  width: 142px;
 }
 
 .w-36 {
@@ -74,8 +82,20 @@
   margin-right: 8px;
 }
 
+.mr-4 {
+  margin-right: 16px;
+}
+
 .mr-5 {
   margin-right: 20px;
+}
+
+.ml-2 {
+  margin-left: 8px;
+}
+
+.ml-4 {
+  margin-left: 16px;
 }
 
 .ml-5 {
