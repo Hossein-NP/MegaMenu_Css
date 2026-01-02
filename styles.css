@@ -38,9 +38,9 @@
 .products-submenu {
   background-color: var(--bg-white);
   top: 100%;
-  display: none;
+  /* display: none;
   opacity: 0;
-  visibility: hidden;
+  visibility: hidden; */
 }
 
 .navbar__menu-items:nth-child(2):hover > .products-submenu {
