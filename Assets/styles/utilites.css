@@ -2,7 +2,7 @@
 
 /* @_@===========Sizing===========@_@ */
 
-/* Display  */
+/* Display, Opacity, Visibility  */
 
 .hidden {
   display: none;
@@ -21,6 +21,13 @@
 
 .justify-between {
   justify-content: space-between;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+.unvisible {
+  visibility: hidden;
 }
 
 /* Height  */
@@ -45,6 +52,9 @@
   height: 80px;
 }
 
+.h-72 {
+  height: 288px;
+}
 /* Width  */
 
 .w-full {
@@ -73,6 +83,10 @@
 
 .w-36 {
   width: 144px;
+}
+
+.w-60 {
+  width: 240px;
 }
 
 .max-w-360 {
@@ -109,6 +123,12 @@
   margin-left: 24px;
 }
 
+/* Padding  */
+.px-5 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 /* Position  */
 
 .relative {
@@ -122,4 +142,9 @@
 .-inset-t-r-2 {
   top: -8px;
   right: -8px;
+}
+
+/* Overflow  */
+.overflow-hidden {
+  overflow: hidden;
 }
