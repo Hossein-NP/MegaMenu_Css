@@ -5,6 +5,7 @@
   /* Colors  */
   --bg-white: #ffffff;
   --bg-teal-600: #2EC4B6;
+  --bg-slate-950: #1D2939;
   --text-slate-950: #1D2939;
   --text-teal-600: #2EC4B6;
   --text-gray-700: #2EC4B6;
@@ -24,5 +25,7 @@
   --f-weight-500: 500;
 
   /* Font Size  */
+  --fs-xs: 14px;
   --fs-base: 16px;
+
 }
