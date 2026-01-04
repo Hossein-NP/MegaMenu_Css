@@ -36,6 +36,10 @@
   color: var(--text-teal-600);
 }
 
+#arrow-direction {
+  
+}
+
 /* @_@===========Sub Menu and Hover===========@_@  */
 
 .submenu-wrapper {
@@ -113,8 +117,7 @@
 }
 
 .men-shoes__item:hover {
-  color: var(--text-slate-950);
-  background-color: var(--gray-200);
+  color: var(--text-teal-600);
 }
 
 /* @_@===========Login and Shopping card===========@_@  */
