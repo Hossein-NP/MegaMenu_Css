@@ -11,6 +11,9 @@
 
 .header {
   background-color: var(--gray-200);
+  box-shadow: var(--shadow-md);
+  position: relative;
+  z-index: 20;
 }
 
 .navbar__menu-items > li {
@@ -45,9 +48,16 @@
   opacity: 0;
   visibility: hidden;
   transition: all  150ms ease-in-out;
+  overflow: hidden;
+  border-radius: 0.5rem;
 }
 
 .navbar__menu-links:hover .submenu-wrapper {
+  opacity: 1;
+  visibility: visible;
+}
+
+.navbar__menu-links:hover  .overlay {
   opacity: 1;
   visibility: visible;
 }
@@ -148,4 +158,18 @@
   height: 338px;
   border-radius: 16px;
   margin-top: 48px;
+}
+
+/* @_@===========Overlay===========@_@  */
+
+.overlay {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 150ms  ease-in-out;
 }

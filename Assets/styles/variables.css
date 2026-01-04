@@ -28,4 +28,6 @@
   --fs-xs: 14px;
   --fs-base: 16px;
 
+  /* Box Shadow  */
+  --shadow-md: 0 4px 10px 0 rgba(0,0,0,0.2)
 }
