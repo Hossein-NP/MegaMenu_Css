@@ -37,11 +37,11 @@ The main purpose of this project is to strengthen core CSS knowledge by implemen
 ```plaintext
 css-mega-menu/
 ├── index.html
-├── css/
-│   └── style.css
+├── style.css
 ├── assets/
+│   └── fonts/
 │   └── images/
-│   └── scripts/app.js
+│   └── scripts/
 │   └── styles/
 └── README.md
 ```
