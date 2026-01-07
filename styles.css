@@ -174,5 +174,7 @@
   z-index: 10;
   opacity: 0;
   visibility: hidden;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
   transition: all 150ms  ease-in-out;
 }
